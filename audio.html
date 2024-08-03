@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice note</title>
+   
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+       
+        color: #fff;
+    }
+    .container {
+        text-align: center;
+    }
+    .audio-container {
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 50px;
+            
+    }
+</style>
+<body>
+    <div class="container">
+    <div class="audio-container">
+        <p><b>PUT ON EARPHONES 🎧 RELAX AND JUST LISTEN!!!!</b></p>
+        <audio controls>
+            <source src="/photos/audio2.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+    </div>
+  
+    <center>
+        <button id="nextpagebutton" >After Listening the audio click me</button>
+        </center>
+        <p>Muddu when you go on next page pls start  the audio first which is in the down left corner and then explore </p>
+
+        <style>
+         
+            button {
+            padding: 5px 10px;
+            font-size: 16px;
+            color: #000000;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            }
+
+            button:hover {
+            background-color: #002ead;
+            transition: 0.7s;
+            }
+            button:focus{
+            outline-color: transparent;
+            outline-style: solid;
+            box-shadow: 0 0 0 4px #5a01a7;
+            }
+
+        </style>
+        
+    </div>
+</div>
+            <script>
+                document.getElementById("nextpagebutton").addEventListener("click", function () {
+                window.location.href="/card.html";
+                });
+            </script>
+    </div>
+
+
+</body>
+</html>
